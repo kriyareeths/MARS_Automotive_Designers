@@ -25,7 +25,7 @@ const ContactInfo = () => {
       details: <>+91 9092 67 93 93 <br /> Mon — Fri, 08:00 - 18:00 EST</>,
       linkText: "DIRECT CALL",
       linkSymbol: "📞",
-      // 💡 Dialpad-க்கு செல்ல
+      
       linkUrl: "tel:+919092679393", 
       target: "_self"
     },
