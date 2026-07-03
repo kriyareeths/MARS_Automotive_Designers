@@ -7,7 +7,7 @@ const FAQSection = () => {
     {
       id: "01",
       question: "What types of truck containers are available? ",
-      answer: "Mars Automotive Designers manufactures truck containers for Light Commercial Vehicles, Heavy Commercial Vehicles, commercial vehicles, and cargo transport needs. We provide both retail-based and order-based container solutions."
+      answer: "Mars Automotive Designers manufactures truck containers for Light Commercial Vehicles, Heavy Commercial Vehicles, commercial vehicles, and cargo transport needs. We provide both Ready Made and order based container solutions."
     },
     {
       id: "02",
@@ -17,17 +17,17 @@ const FAQSection = () => {
     {
       id: "03",
       question: "Do you provide custom truck container solutions?",
-      answer: "Yes. We provide order-based truck container manufacturing according to vehicle size, load requirement, business usage, and customer specifications."
+      answer: "Yes. We provide order based truck container manufacturing according to vehicle size, load requirement, business usage, and customer specifications."
     },
     {
       id: "04",
-      question: "Do you offer ready-made truck containers for fast delivery?",
-      answer: "Yes. Retail-based truck containers are available for faster delivery. Based on availability, retail containers can usually be delivered within half a day to one days."
+      question: "Do you offer ready made truck containers for fast delivery?",
+      answer: "Yes. Ready Made truck containers are available for faster delivery. Based on availability, Ready Made containers can usually be delivered within half a day to one days."
     },
     {
       id: "05",
       question: "What is the delivery time for an order-based truck container?",
-      answer: "Order-based truck containers are usually completed within 3 days, depending on size, design requirements, and customization needs."
+      answer: "Order based truck containers are usually completed within 3 days, depending on size, design requirements, and customization needs."
     },
     {
       id: "06",

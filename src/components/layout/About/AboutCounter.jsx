@@ -52,9 +52,9 @@ const SlotCounter = ({ value, baseDirection = "up" }) => {
 const AboutCounter = () => {
   const leadershipData = [
     { title: "YEARS OF EXPERTISE", count: 30, suffix: "+", desc: "Leveraging decades of truck container manufacturing experience, we deliver durable, reliable, and precision-built transportation solutions." },
-    { title: "FAST DELIVERY", count: 3, suffix: "Days", desc: "Retail truck containers are delivered on the same day whenever possible, while custom-built container orders are completed within approximately 3 days." },
-    { title: "CUSTOMERS SERVED", count: 450, suffix: "+", desc: "Thousands of businesses trust our retail and custom truck container solutions for quality, reliability, and timely delivery." },
-    { title: "QUALITY COMMITMENT", count: 99.9, suffix: "%", desc: "Every truck container undergoes strict quality inspections to ensure durability, safety, and dependable long-term performance." }
+    { title: "FAST DELIVERY", count: 3, suffix: "Days", desc: "Ready Made truck containers are delivered on the same day whenever possible, while custom built container orders are completed within approximately 3 days." },
+    { title: "CUSTOMERS SERVED", count: 450, suffix: "+", desc: "Thousands of businesses trust our Ready Made and custom truck container solutions for quality, reliability, and timely delivery." },
+    { title: "QUALITY COMMITMENT", count: 99.9, suffix: "%", desc: "Every truck container undergoes strict quality inspections to ensure durability, safety, and dependable long term performance." }
   ];
 
   return (

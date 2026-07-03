@@ -58,7 +58,7 @@ const forceScroll = () => {
             <div className="footer-col p-4 border-start-md">
               <div className="mb-4">
                 <h6 className="footer-label mb-2 mainsub">CONTACT</h6>
-                <p className="small mb-0 maindes">(+91)9876543210</p>
+                <p className="small mb-0 maindes">(+91) 9092 67 93 93</p>
               </div>
               <div>
                 <h6 className="footer-label mb-2 mainsub">ADDRESS</h6>

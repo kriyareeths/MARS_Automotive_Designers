@@ -58,7 +58,7 @@ const AboutVision = () => {
               </div> 
               <div className="d-flex flex-column flex-lg-row col-12 col-lg-7 align-items-start align-items-lg-end text-center text-lg-start">
                 <h2 className="innovation-main-title col-12 col-lg-8 maintit">
-                  DELIVERING DURABLE TRUCK CONTAINER SOLUTIONS AS TRUSTED CONTAINER RETAILERS IN MADURAI WITH PRECISION MANUFACTURING AND QUALITY MATERIALS.
+                  DELIVERING DURABLE TRUCK CONTAINER SOLUTIONS AS TRUSTED CONTAINERS IN MADURAI WITH PRECISION MANUFACTURING AND QUALITY MATERIALS.
                 </h2>
                 
                 <div className='w-100 d-flex justify-content-center justify-content-lg-end text-center text-lg-start'>

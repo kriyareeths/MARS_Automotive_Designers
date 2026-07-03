@@ -39,7 +39,7 @@ const ServiceDetail1 = () => {
     },
     {
       title: "Timely Delivery",
-      desc: "Efficient production planning helps us deliver retail and custom truck containers within committed timelines.",
+      desc: "Efficient production planning helps us deliver ready made and custom truck containers within committed timelines.",
     },
   ];
 

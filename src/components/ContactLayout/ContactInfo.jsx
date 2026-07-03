@@ -22,18 +22,18 @@ const ContactInfo = () => {
       title: "TECHNICAL",
       subtitle: "SALES",
       iconImg: contacticon2,
-      details: <>+91 98765 432 01 <br /> Mon — Fri, 08:00 - 18:00 EST</>,
+      details: <>+91 9092 67 93 93 <br /> Mon — Fri, 08:00 - 18:00 EST</>,
       linkText: "DIRECT CALL",
       linkSymbol: "📞",
       // 💡 Dialpad-க்கு செல்ல
-      linkUrl: "tel:+13135550192", 
+      linkUrl: "tel:+919092679393", 
       target: "_self"
     },
     {
       title: "GENERAL",
       subtitle: "INQUIRY",
       iconImg: contacticon3,
-      details: <>support@marsautomotivedesigners.com <br /> Response within 12 technical hours</>,
+      details: <>marsautomotive2025@gmail.com <br /> Response within 12 technical hours</>,
       linkText: "SEND MESSAGE",
       linkSymbol: "@",
       // 💡 ஈமெயில் ஆப்பிற்கு செல்ல
