@@ -51,10 +51,10 @@ const SlotCounter = ({ value, baseDirection = "up" }) => {
 
 const AboutCounter = () => {
   const leadershipData = [
-    { title: "YEARS OF EXPERTISE", count: 30, suffix: "+", desc: "Leveraging decades of truck container manufacturing experience, we deliver durable, reliable, and precision-built transportation solutions." },
-    { title: "FAST DELIVERY", count: 3, suffix: "Days", desc: "Ready Made truck containers are delivered on the same day whenever possible, while custom built container orders are completed within approximately 3 days." },
-    { title: "CUSTOMERS SERVED", count: 450, suffix: "+", desc: "Thousands of businesses trust our Ready Made and custom truck container solutions for quality, reliability, and timely delivery." },
-    { title: "QUALITY COMMITMENT", count: 99.9, suffix: "%", desc: "Every truck container undergoes strict quality inspections to ensure durability, safety, and dependable long term performance." }
+    { title: "YEARS OF EXPERTISE", count: 30, suffix: "+", desc: "As an ISO Certified truck container manufacturer, we've spent over 30 years delivering durable truck containers. Every project reflects our commitment to quality, skilled craftsmanship & customer satisfaction." },
+    { title: "FAST DELIVERY", count: 3, suffix: "Days", desc: "We know every hour matters for your business. That's why our Ready Made truck containers are delivered within half a day to one day, while custom built container orders are completed in approximately 3 days." },
+    { title: "CUSTOMERS SERVED", count: 450, suffix: "+", desc: "In the past year, we've successfully manufactured and delivered 450+ truck containers for businesses across various industries. Every container reflects our commitment to quality, reliability, and timely delivery." },
+    { title: "QUALITY COMMITMENT", count: 99.9, suffix: "%", desc: "Every truck container is carefully inspected before delivery to ensure durability, safety, and dependable long term performance. We never compromise on quality because your trust is our greatest achievement." }
   ];
 
   return (

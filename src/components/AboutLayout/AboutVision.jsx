@@ -13,17 +13,17 @@ const AboutVision = () => {
   const innovationData = [
     { 
       title: "VISION", 
-      desc: "To become one of the most trusted truck container manufacturers by delivering innovative, durable, and reliable transportation solutions that support businesses across every industry",
+      desc: "To become a leading truck container manufacturer by setting industry standards through high quality products, long term reliability, continuous innovation, and customer focused manufacturing excellence.",
       image: visionImg
     },
     { 
       title: "MISSION", 
-      desc: "To manufacture high-quality truck containers for Light Weight Vehicles, Heavy Weight Vehicles, and commercial transport while ensuring precision, timely delivery, and customer satisfaction.",
+      desc: "To manufacture high quality truck containers for All Commercial Vehicles, delivering durable solutions that protect goods while ensuring timely delivery and customer satisfaction.",
       image: missionImg
     },
     { 
       title: "OUR VALUES", 
-      desc: "Quality workmanship, honest business practices, continuous innovation, and customer commitment drive every truck container we manufacture.",
+      desc: "We are committed to quality, honesty, and lasting customer relationships, ensuring every truck container is manufactured with care, reliability, and an unwavering commitment to customer satisfaction.",
       image: valuesImg
     }
   ];
@@ -58,7 +58,7 @@ const AboutVision = () => {
               </div> 
               <div className="d-flex flex-column flex-lg-row col-12 col-lg-7 align-items-start align-items-lg-end text-center text-lg-start">
                 <h2 className="innovation-main-title col-12 col-lg-8 maintit">
-                  DELIVERING DURABLE TRUCK CONTAINER SOLUTIONS AS TRUSTED CONTAINERS IN MADURAI WITH PRECISION MANUFACTURING AND QUALITY MATERIALS.
+                  DELIVERING DURABLE TRUCK CONTAINER SOLUTIONS IN MADURAI THROUGH QUALITY MANUFACTURING.
                 </h2>
                 
                 <div className='w-100 d-flex justify-content-center justify-content-lg-end text-center text-lg-start'>

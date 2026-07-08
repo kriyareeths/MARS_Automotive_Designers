@@ -74,7 +74,7 @@ const Hero = () => {
   if (!isPreloading) return;
 
   const speakText = () => {
-    // ஸ்பீச் ஏற்கனவே ஓடிக்கொண்டிருந்தால் நிறுத்திவிட்டுப் புதிதாகத் தொடங்கவும்
+    
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance("Welcome to the Future of Fabrication");
@@ -83,14 +83,18 @@ const Hero = () => {
     utterance.pitch = 1.0;
     utterance.volume = 1;
 
-    // குரலைத் தேர்ந்தெடுக்கும் முறை
-    const voices = window.speechSynthesis.getVoices();
-    const maleVoice = voices.find(v => /male|david|mark/i.test(v.name)) || voices[0];
     
-    if (maleVoice) utterance.voice = maleVoice;
+    const voices = window.speechSynthesis.getVoices();
+    const sweetFemaleVoice = voices.find(v => 
+        v.name.includes("Google UK English Female") || 
+        v.name.includes("Google US English") || 
+        /female|samantha|zira/i.test(v.name)
+      ) || voices[0];
+      
+      if (sweetFemaleVoice) utterance.voice = sweetFemaleVoice;
 
-    window.speechSynthesis.speak(utterance);
-  };
+      window.speechSynthesis.speak(utterance);
+    };
 
   // பிரவுசர் சப்போர்ட் செய்கிறதா என்று பார்க்க
   if ('speechSynthesis' in window) {

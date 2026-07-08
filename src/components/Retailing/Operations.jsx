@@ -46,7 +46,7 @@ const CargoSolutions = () => {
 
           {/* RIGHT COLUMN: CORE VALUES CHECK LIST + CTA CAPSEL BUTTON */}
           <div className="col-12 col-lg-6 cargo-content-engine-col ps-lg-5">
-            <h3 className="why-choose-title fw-bold text-uppercase inter-font mb-3 inter-font mainsub">Why Choose Our Ready Made Containers?</h3>
+            <h3 className="why-choose-title fw-bold text-uppercase inter-font mb-3 inter-font mainsub">What We Offer Ready Made Truck Containers</h3>
             <p className="why-choose-subtext  text-muted mb-4 inter-font maindes" >
               We build durable truck containers through precision manufacturing and dependable
             </p>

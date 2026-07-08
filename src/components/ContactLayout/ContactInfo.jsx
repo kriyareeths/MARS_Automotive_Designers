@@ -36,7 +36,7 @@ const ContactInfo = () => {
       details: <>marsautomotive2025@gmail.com <br /> Response within 12 technical hours</>,
       linkText: "SEND MESSAGE",
       linkSymbol: "@",
-      // 💡 ஈமெயில் ஆப்பிற்கு செல்ல
+      
       linkUrl: "#contact-form",
       target: "_self"
     }

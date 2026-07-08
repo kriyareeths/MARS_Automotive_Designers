@@ -100,8 +100,8 @@ const About = () => {
     },
     {
       id: "img4",
-      title: "PANEL & INSULATION INSTALLATION",
-      desc: "Accurate panel installation and assembly for reliable truck container construction.",
+      title: "MS Sheet & INSULATION INSTALLATION",
+      desc: "Accurate MS Sheet installation and assembly for reliable truck container construction.",
       icon: aboutsmallimage1,
       image: aboutchangeimg4,
     },
