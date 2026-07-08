@@ -26,7 +26,7 @@ const CargoSolutions = () => {
             Ready Made Truck Containers with Fast Delivery
           </h2>
           <p className="cargo-top-subdesc mx-auto hanken-grotesk-font fw-normal text-muted mt-2 inter-font maindes">
-            Need a truck container without a long waiting period? Mars Automotive Designers offers Ready Made truck containers that are ready for dispatch within half a day to one day, helping businesses minimize downtime and keep their operations moving. Every container is manufactured using quality tested materials and precision engineering to ensure durability, safety, and dependable performance.
+            Need a truck container without a long waiting period? Mars Automotive Designers offers Ready Made truck containers that are ready for dispatch within half a day to one day, depending upon customer requirements. Every container is manufactured using quality tested materials and skilled craftsmanship to ensure durability, safety, and dependable performance.
           </p>
         </div>
 
