@@ -30,7 +30,7 @@
 .mars-eng-flow-container {
   max-width: 1000px; /* Tighter width looks better on desktop */
   margin: 0 auto;
-  padding: 40px 0;
+  /* padding: 40px 0; */
   position: relative;
 }
 

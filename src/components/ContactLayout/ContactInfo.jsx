@@ -22,7 +22,7 @@ const ContactInfo = () => {
       title: "TECHNICAL",
       subtitle: "SALES",
       iconImg: contacticon2,
-      details: <>+91 9092 67 93 93 <br /> Mon — Fri, 10:00 - 18:00 IST</>,
+      details: <>+91 9092 67 93 93 <br /> Mon — Sat, 10:00 - 18:00 IST</>,
       linkText: "DIRECT CALL",
       linkSymbol: "📞",
       
