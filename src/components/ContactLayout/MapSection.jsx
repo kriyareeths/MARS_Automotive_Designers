@@ -7,7 +7,7 @@ const MapSection = () => {
       <div className="map-container">
         <div className="map-info"> 
           <h2 className="info-title maintit">Global Headquarters</h2>
-          <p className="map-text mainsub">MARS Automotive Designers, Industrial Zone, Coimbatore</p>
+          <p className="map-text mainsub">MARS Automotive Designers, Sholavandan, Madurai</p>
         </div>
         <div className="map-frame">
           <iframe 

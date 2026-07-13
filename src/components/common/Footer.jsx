@@ -65,6 +65,9 @@ const forceScroll = () => {
                 <p className="small maindes">
                   418/3A, 418/3B, Sholavandan to Nagari Road, Taluk, Vadipatti, Sholavandan, Madurai, Tamil Nadu 625214<br />
                 </p>
+                <p className="small maindes">
+                  marsautomotive2025@gmail.com<br />
+                </p>
               </div>
             </div>
           </div>

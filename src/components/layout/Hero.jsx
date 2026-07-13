@@ -22,6 +22,16 @@ const Hero = () => {
 
   const [audio] = useState(new Audio(bgMusic));
   const [musicPlaying, setMusicPlaying] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 991);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 991);
+    };
+    
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     audio.loop = true;
@@ -248,22 +258,32 @@ const Hero = () => {
   <AnimatePresence>
     {showAnimation && (
       <>
+        {/* MARS TEXT */}
         <motion.div 
-          initial={{ opacity: 0, scale: 0.3 }} 
-          animate={{ opacity: 1, scale: 1 }} 
+          initial={isDesktop ? { x: "100vw" , y:"12vw", opacity: 1 } : { opacity: 0, scale: 0.3, x: 0 }} 
+          animate={isDesktop ? { x: "2vw", opacity: 1 } : { opacity: 1, scale: 1, x: 0 }} 
           exit={{ opacity: 0, transition: { duration: 1.5, ease: "easeInOut" } }} 
-          transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }} 
+          transition={
+            isDesktop 
+              // Text Tween: Duration 2s, Delay 0.35s (Truck-ku pinnala varum)
+              ? { type: "tween", duration: 2, ease: "easeOut", delay: 0.5 } 
+              : { duration: 2, ease: [0.16, 1, 0.3, 1] }
+          }
           className="mars-text-bg"
+          style={{ position: "relative", zIndex: 1 }} 
         >
           <h1 className="massives-text">MARS</h1>
         </motion.div>
         
+        {/* TRUCK FOREGROUND */}
         <motion.div 
-          initial={{ x: "100vw", opacity: 1 }} 
-          animate={{ x: "5vw", opacity: 1 }} 
+          initial={isDesktop ?{ x: "100vw", y:"-5vw", opacity: 1 }:{ x: "100vw", opacity: 1 }} 
+          animate={isDesktop ?{ x: "-20vw", opacity: 1 }:{ x: "5vw", opacity: 1 }} 
           exit={{ opacity: 0, transition: { duration: 1.5, ease: "easeInOut" } }} 
-          transition={{ type: "spring", stiffness: 15, damping: 15, mass: 1.2, delay: 0.2 }} 
+          // Truck Tween: Same duration (2s) and ease ("easeOut"). Delay 0.2s
+          transition={{ type: "tween", duration: 2, ease: "easeOut", delay: 0.27 }} 
           className="truck-foreground"
+          style={{ position: "relative", zIndex: 2 }}
         >
           <img src={whitetruck} alt="Mars Truck" className="truck-img" />
         </motion.div>
