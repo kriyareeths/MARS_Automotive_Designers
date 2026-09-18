@@ -10,9 +10,16 @@
   letter-spacing: -1px;
 }
 
+/* Kotha class: Layout shift aapadaniki */
+.team-card {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
 .member-img-wrapper {
   overflow: hidden;
   background-color: #e0e0e0; /* Placeholder color */
+  transform: translateZ(0); /* Scrollbar issue fix */
 }
 
 .member-img {
@@ -21,10 +28,11 @@
   object-fit: cover;
   filter: grayscale(20%); /* Slight desaturation for a professional look */
   transition: transform 0.5s ease;
+  backface-visibility: hidden; /* Scrollbar issue fix */
 }
 
 .team-card:hover .member-img {
-  transform: scale(1.05);
+  transform: scale(1.05) translateZ(0); /* Scrollbar issue fix */
   filter: grayscale(0%);
 }
 

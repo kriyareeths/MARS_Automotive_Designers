@@ -4,14 +4,17 @@ import "./css/AboutTeam.css"
 import data1 from "../../assets/Guhan.webp"
 import data2 from "../../assets/Ranjithkumar.webp"
 import data3 from "../../assets/siva.webp"
-import data4 from "../../assets/per4.webp"
+import data4 from "../../assets/MUKILAN 1.webp"
 
 const TeamSection = () => {
   const team = [
-    { name: "S Guhan", role: "Workshop manager", img: data1 },
-    { name: "P Ranjith Kumar", role: "Store manager", img: data2 },
+    { name: "R A Mukilan", role: "Managing Director", img: data4 },
     { name: "M S Siva", role: "Admin Head", img: data3 },
-    // { name: "ELENA MORETTI", role: "STORE INCHARGE", img: data4 }
+    { name: "P Ranjith Kumar", role: "Store manager", img: data2 },
+    { name: "S Guhan", role: "Workshop manager", img: data1 },
+    
+
+    
   ];
 
   return (
