@@ -1,17 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import "./css/AboutTeam.css"
-import data1 from "../../assets/per1.webp"
-import data2 from "../../assets/per2.webp"
-import data3 from "../../assets/per3.webp"
+import data1 from "../../assets/Guhan.webp"
+import data2 from "../../assets/Ranjithkumar.webp"
+import data3 from "../../assets/siva.webp"
 import data4 from "../../assets/per4.webp"
 
 const TeamSection = () => {
   const team = [
-    { name: "ELIAS VANCE", role: "MANAGING DIRECTOR", img: data1 },
-    { name: "SARAH KOVAC", role: "PROJECT MANAGER", img: data2 },
-    { name: "DAVID CHEN", role: "ACCOUNTANT HEAD", img: data3 },
-    { name: "ELENA MORETTI", role: "STORE INCHARGE", img: data4 }
+    { name: "S Guhan", role: "Workshop manager", img: data1 },
+    { name: "P Ranjith Kumar", role: "Store manager", img: data2 },
+    { name: "M S Siva", role: "Admin Head", img: data3 },
+    // { name: "ELENA MORETTI", role: "STORE INCHARGE", img: data4 }
   ];
 
   return (
